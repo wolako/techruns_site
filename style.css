@@ -15,11 +15,11 @@ header{
     position: fixed;
     top: 0%;
     left: 0%;
-    padding: 20px;
+    padding: 20px 10px;
     width: 100%;
     z-index: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     transition: 0.5s;
     /*background: #0c436b;*/
@@ -39,7 +39,7 @@ header{
     list-style: none;
 }
 .navbar a{
-    color: #0c436b;
+    color: #fff;
     text-decoration: none;
     margin-left: 30px;
     font-weight: 700;
@@ -105,21 +105,121 @@ header{
     margin-left: 10px;
 }
 
+.btn1:hover{
+    letter-spacing: 4px;
+}
 
+.btn2:hover{
+    letter-spacing: 4px;
+}
 
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
 
+.row .col50 h2{
+    margin-bottom: 20px;
+}
 
+.titre_about{
+    color: #000;
+    font-size: 2em;
+    font-weight: 400px;
+    text-transform: capitalize;
+}
 
+.row .col50 img{
+    height: 250px;
+    width: 350px;
+    position: relative;
+}
 
+.titre_serv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.service{
 
+}
 
+.titre_serv{
+    padding-bottom: 50px;
+}
 
+.contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
 
+.contenu .box{
+    padding: 20px;
+}
 
+#box1{
+     padding-top: 15px;
+}
 
+#box2{
+    padding-top: 15px;
+}
 
+#box3{
+    padding-top: 15px;
+}
+
+#box4{
+    padding-top: 15px;
+
+}
+#box5{
+    padding-top: 15px;
+}
+
+#box6{
+    padding-top: 15px;
+}
+
+.text_color1{
+    background-color: #fb911f;
+}
+
+.text_color2{
+    background-color: #a22fbe;
+}
+
+.text_color3{
+    background-color: #134f5e;
+}
+
+.text_color4{
+    background-color: #167239;
+}
+
+.text_color5{
+    background-color: #311b49;
+}
+
+.text_color6{
+    background-color: #470c0c;
+}
 
 
 
