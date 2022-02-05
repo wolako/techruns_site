@@ -75,6 +75,16 @@ header button:hover{
     align-items: center;
 }
 
+.main h2{
+    font-family: 'evogria regular' sans-serif;
+    font-size: 2rem;
+    color: #0c436b;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
 .main .content .card{
     display: flex;
     flex-wrap: wrap;
@@ -100,14 +110,14 @@ header button:hover{
 }
 
 .services{
-    background-color: #ccc;
+    background-color:;
 }
 
-.services h1{
+.services h2{
     margin: 40px 0;
     text-align: center;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2rem;
     color: #0c436b;
 }
 
@@ -139,6 +149,37 @@ header button:hover{
 .services .box_services .service:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
+
+/*debut pied de page*/
+footer{
+    margin-top: 100px;
+    background-color: #0c436b;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer .rso{
+    display: flex;
+}
+
+footer .rso a{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+/*fin pied de page*/
+
+
 
 
 @media screen and (max-width:680px){
