@@ -99,6 +99,10 @@ header button:hover{
     color: #fff;
 }
 
+.main .content .card .left .mission{
+    margin-top: 20px;
+}
+
 .main .content .card.right{
     flex: 0 0 70%;
 }
